@@ -1,49 +1,16 @@
-# Utsav Darshan – City Festival & Cultural Calendar Platform
+# React + Vite
 
-## About the Project
-Utsav Darshan is a web-based platform that helps users discover festivals and cultural events happening in different cities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- Browse approved festivals and cultural events.
-- Search festivals by name.
-- Filter festivals by city and category.
-- View festival dates, locations, descriptions, and significance.
-- Save favorite festivals.
-- Submit festival details for review.
-- Admin login and dashboard.
-- Approve, reject, or return festival submissions to pending status.
+Currently, two official plugins are available:
 
-## Technologies Used
-- **Frontend:** React, Vite, JavaScript, CSS
-- **Backend:** Node.js, Express.js
-- **Database:** SQLite
-- **Authentication:** JSON Web Token (JWT)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Project Structure
-- `client/` – Frontend application
-- `server/` – Backend API and database setup
+## React Compiler
 
-## How to Run the Project
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Start the backend
-```bash
-cd server
-npm install
-node server.js
-```
+## Expanding the ESLint configuration
 
-### Start the frontend
-Open another terminal:
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Open the local URL displayed in the frontend terminal, usually `http://localhost:5173`.
-
-## Security
-Do not upload `.env` files, passwords, JWT secrets, database files, or `node_modules` to GitHub.
-
-## Objective
-To provide a convenient way for people to discover local festivals and cultural events through a searchable web platform.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
